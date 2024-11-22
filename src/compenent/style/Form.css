@@ -1,0 +1,114 @@
+/* Général */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur du formulaire */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre du formulaire */
+form h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+form label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Champs de texte et inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="radio"],
+form input[type="checkbox"],
+form select,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Pour les champs de type radio et checkbox */
+form input[type="radio"],
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Styles pour le bouton */
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Séparation entre les champs de formulaire */
+form .field-group {
+  margin-bottom: 20px;
+}
+
+/* Pour le preview de l'image */
+form img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Table des informations soumises */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}

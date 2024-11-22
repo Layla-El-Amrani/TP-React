@@ -1,0 +1,112 @@
+/* gestionuser.css */
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    margin: 20px;
+  }
+  
+  /* Bouton d'ajout et d'annulation */
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Formulaire */
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Label */
+  .label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  /* Champs de saisie */
+  .input, .file-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Section des radios */
+  .radio-wrapper {
+    margin-bottom: 15px;
+  }
+  
+  .radio-input {
+    margin-right: 10px;
+  }
+  
+  /* Tableau */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Bouton de suppression */
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935;
+  }
+  

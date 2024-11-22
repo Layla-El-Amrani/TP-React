@@ -1,0 +1,98 @@
+/* Container principal du quiz */
+.quiz-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre du quiz */
+.quiz-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Conteneur de la question */
+.question-container {
+    margin-bottom: 20px;
+}
+
+/* Style de la question */
+.quiz-question {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Conteneur des réponses */
+.answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style des boutons de réponses */
+.answer-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Hover effect pour les boutons */
+.answer-button:hover {
+    background-color: #0056b3;
+}
+
+/* Désactive les boutons après avoir répondu */
+.answer-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Style du feedback après la réponse */
+.answer-feedback {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.answer-feedback.correct {
+    color: green;
+}
+
+.answer-feedback.incorrect {
+    color: red;
+}
+
+/* Style du message de fin du quiz */
+.quiz-finished {
+    margin-top: 40px;
+}
+
+.quiz-score {
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Ajout d'un fond gradient pour l'écran de fin de quiz */
+.quiz-finished {
+    background: linear-gradient(135deg, #f7f7f7 0%, #e6e6e6 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
