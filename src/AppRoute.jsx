@@ -18,6 +18,11 @@ import PageNotFound from './compenent/PageNotFound';
 import TodoDragDrop from './compenent/TodoDragDrop';
 import Login from './compenent/Login';
 import Signup from './compenent/Signup';
+import Systeme_Routage from './compenent/Systeme_Routage';
+
+import Home from './compenent/page_systeme_routage/home';
+import Admin from './compenent/page_systeme_routage/Admin';
+import User from './compenent/page_systeme_routage/User';
 
 
 
@@ -39,6 +44,11 @@ export default function AppRoute() {
     <Route path='/TodoDragDrop' element={<TodoDragDrop/>} />
     <Route path='/Login' element={<Login/>} /> 
     <Route path='/Signup' element={<Signup/>} />
+    <Route path='/Systeme_Routage' element={<Systeme_Routage/>} />
+    
+    <Route path='/' element={<Home/>}/>
+    <Route path='/Admin' element={<Admin/>}/>
+    <Route path='/User' element={<User/>}/>
    </Routes>
   )
 }
