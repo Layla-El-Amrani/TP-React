@@ -17,6 +17,9 @@ export default function Systeme_Routage() {
                 <li><Link to='/'> Home</Link></li>
                 <li><Link to='/Admin'>Admin</Link></li>
                 <li><Link to='/User'>User</Link></li>
+
+                <li><Link to='/ArticleDetail'>Article</Link></li>
+                <li><Link to='/ArticleDetail'>ArticleDetail</Link></li>
             </ol>
         </navbarre>
 

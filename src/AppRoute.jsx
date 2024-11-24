@@ -23,6 +23,8 @@ import Systeme_Routage from './compenent/Systeme_Routage';
 import Home from './compenent/page_systeme_routage/home';
 import Admin from './compenent/page_systeme_routage/Admin';
 import User from './compenent/page_systeme_routage/User';
+import Article from './compenent/page_systeme_routage/Article';
+import ArticleDetail from './compenent/page_systeme_routage/ArticleDetail';
 
 
 
@@ -49,6 +51,9 @@ export default function AppRoute() {
     <Route path='/' element={<Home/>}/>
     <Route path='/Admin' element={<Admin/>}/>
     <Route path='/User' element={<User/>}/>
+
+    <Route path='/Article' element={<Article/>}/>
+    <Route path='/ArticleDetail' element={<ArticleDetail/>}/>
    </Routes>
   )
 }
