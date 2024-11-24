@@ -25,6 +25,7 @@ import Admin from './compenent/page_systeme_routage/Admin';
 import User from './compenent/page_systeme_routage/User';
 import Article from './compenent/page_systeme_routage/Article';
 import ArticleDetail from './compenent/page_systeme_routage/ArticleDetail';
+import About from './compenent/page_systeme_routage/about';
 
 
 
@@ -53,7 +54,8 @@ export default function AppRoute() {
     <Route path='/User' element={<User/>}/>
 
     <Route path='/Article' element={<Article/>}/>
-    <Route path='/ArticleDetail' element={<ArticleDetail/>}/>
+    <Route path='/Article/:id' element={<ArticleDetail/>}/>
+    <Route path='/About' element={<About/>}/>
    </Routes>
   )
 }

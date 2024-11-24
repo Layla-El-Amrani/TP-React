@@ -1,0 +1,29 @@
+[33mcommit 355ef21198b1022e524637185239187f82d2d52a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Layla <laylaelamrani584@gmail.com>
+Date:   Sun Nov 24 10:13:24 2024 +0100
+
+    ajouter la page article et article detail
+
+[33mcommit 3e4b7777436a5f64005c857b4eeb6fe0a529ed44[m
+Author: Layla <laylaelamrani584@gmail.com>
+Date:   Sun Nov 24 09:58:55 2024 +0100
+
+    changer le page about et le page topic par les pages user et admin
+
+[33mcommit 0a15d7d0a58fddbd01f9277c54ddf89f24ace7d1[m
+Author: Layla <laylaelamrani584@gmail.com>
+Date:   Sun Nov 24 09:24:04 2024 +0100
+
+    ajouter les ficheir de systeme de routege
+
+[33mcommit a6927253576c6832129b09062c4f21d85bd7e7e7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Layla <laylaelamrani584@gmail.com>
+Date:   Fri Nov 22 16:26:08 2024 +0100
+
+    Initial commit
+
+[33mcommit e01dbd131820d3f2cdfade4eb436c7272c1c39d3[m
+Author: Layla <laylaelamrani584@gmail.com>
+Date:   Fri Nov 22 16:01:05 2024 +0100
+
+    Initialize project using Create React App
